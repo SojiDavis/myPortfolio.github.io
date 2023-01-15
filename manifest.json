@@ -1,0 +1,51 @@
+{
+  
+    "name": "Resume_Soji Davis",
+    "short_name": "Resume",
+    "start_url": "/about.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color" :"gray",
+    "description": "a complete portfolio of Soji Davis",
+    "icons": [{
+      "src": "images/logo.svg",
+      "sizes": "41x32",
+      "type": "image/svg"
+    }, {
+      "src": "images/academic.png",
+      "sizes": "2880x2880",
+      "type": "image/png"
+    }, {
+      "src": "images/soji.jpg",
+      "sizes": "636x550",
+      "type": "image/png"
+    }, {
+      "src": "images/Currency_converter.png",
+      "sizes": "1671x814",
+      "type": "image/png"
+    }, {
+      "src": "images/Currency_converter1.jpg",
+      "sizes": "1920x1536",
+      "type": "image/jpg"
+    }, {
+      "src": "images/Fuel_forcaster1.jpg",
+      "sizes": "1152x364",
+      "type": "image/jpg"
+    }, {
+        "src": "images/Fuel_forcaster.png",
+        "sizes": "1892x673",
+        "type": "image/png"
+    }, {
+        "src": "images/Resume_image.png",
+        "sizes": "776x901",
+        "type": "image/png"
+    }],
+    "related_applications": [{
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/in/soji-davis-27295b24/"
+      },{
+        "platform": "facebook",
+        "url": "https://www.facebook.com/soji.davis.3/"
+      }]
+   
+  }

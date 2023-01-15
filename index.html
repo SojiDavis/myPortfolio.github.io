@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume_Soji Davis</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <!-- font awesome cdn link  -->
+    <link rel="manifest" href="manifest.json" >
+    
+    <!-- font link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
-
 </head>
 
 <body>
+    <div class="splash">
+        <h1 class="fade-in">Welcome to my portfolio </h1>
+
+    </div>
     <div class="wrapper">
         <nav>
             <input type="checkbox" id="show-search">
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
             <div class="content">
-                <div class="logo"><a href="index.html"><img src="images/logo.svg"></a></div>
+                <div class="logo"><a href="index.html"><img src="images/logo.svg" alt="logo"></a></div>
                 <ul class="links">
                     <li><a href="index.html">About</a></li>
                     <li><a href="academic.html">Academic</a></li>
@@ -65,8 +66,12 @@
         <div class="footer_class">
 
             <span class="email">SOJI DAVIS <br></span>
-            <span class="email">sojidavisp@gmail.com <br></span>
-            <span class="email">+44 7768187960</span>
+            <span class="email"><i class="fas fa-envelope"></i> sojidavisp@gmail.com |<a
+                    onclick="window.open(this.href,'_blank');return false;"
+                    href="https://www.linkedin.com/in/soji-davis-27295b24/"> <i class="fa fa-linkedin"></i></a> | <a
+                    onclick="window.open(this.href,'_blank');return false;"
+                    href="https://www.facebook.com/soji.davis.3/"><i class="fa fa-facebook"></i></a><br></span>
+            <span class="email"><i class="fas fa-mobile-alt"></i> +44 7768187960 </span>
 
 
         </div> <!-- footer_class -->
@@ -74,7 +79,7 @@
 
 
     <!--====== FOOTER PART ENDS ======-->
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
