@@ -14,7 +14,7 @@ let inpt2=inputs[1];
 let rates={};
 
 
-let requestURL ="http://www.floatrates.com/daily/usd.json";
+let requestURL ="https://www.floatrates.com/daily/usd.json";
 populateOptions();
 function populateOptions(){    
     let val='<option > USD </option>';
@@ -28,7 +28,7 @@ function populateOptions(){
 });
 }
 function convert(val, fromcurr, tocurre){
-    let url = 'http://www.floatrates.com/daily/${fromcurr}.json';
+    let url = 'https://www.floatrates.com/daily/${fromcurr}.json';
     fetch(url)
     .then(res => 
      res.json()).then(data => {        
