@@ -28,7 +28,7 @@ function populateOptions(){
 });
 }
 function convert(val, fromcurr, tocurre){
-    let url = 'https://www.floatrates.com/daily/${fromcurr}.json';
+    let url = 'https://www.floatrates.com/daily/'+fromcurr +'.json';
     fetch(url)
     .then(res => 
      res.json()).then(data => {        
