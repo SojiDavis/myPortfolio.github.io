@@ -13,7 +13,7 @@ msg.addEventListener('input', function (e) {
     const length = target.value.length;
 
     // cnt.innerHTML = length +'/'+ maxLen;
-    cnt.innerHTML = '${length}$ / ${maxLen}$';
+    cnt.innerHTML = '${length}/${maxLen}';
     
 
     

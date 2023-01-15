@@ -21,14 +21,14 @@ function populateOptions(){
     fetch(requestURL).then(res => res.json()).then(data =>{
     Object.keys(data).forEach((code) =>  {  
       
-        let str ='<option >${code}$</option>';
+        let str ='<option >${code}</option>';
         val +=str;          
   })
   selects.forEach((s) =>(s.innerHTML=val.toUpperCase()));
 });
 }
 function convert(val, fromcurr, tocurre){
-    let url = 'http://www.floatrates.com/daily/${fromcurr}$.json';
+    let url = 'http://www.floatrates.com/daily/${fromcurr}.json';
     fetch(url)
     .then(res => 
      res.json()).then(data => {        
@@ -40,7 +40,7 @@ function convert(val, fromcurr, tocurre){
     
     // rate1.innerHTML = 'Current Exchange Rate : 1 $(fromcurr.toUpperCase() )$ = $(1* (todetails.rate).toFixed(03) )$tocurre.toUpperCase()'
     // +"<br> Last exchange rate updated: " + (todetails.date) + '<br>Calculation Timestamp: ' + d ;
-    rate1.innerHTML = 'Current Exchange Rate : 1 ${fromcurr.toUpperCase()}$  = ${ 1* (todetails.rate).toFixed(03)}$ ${tocurre.toUpperCase()}$ <br> Last exchange rate updated: ${todetails.date}$ <br>Calculation Timestamp: ${d}$';
+    rate1.innerHTML = 'Current Exchange Rate : 1 ${fromcurr.toUpperCase()}  = ${ 1* (todetails.rate).toFixed(03)} ${tocurre.toUpperCase()} <br> Last exchange rate updated: ${todetails.date} <br>Calculation Timestamp: ${d}';
 
 
    catch_err.innerHTML ="";
