@@ -12,7 +12,10 @@ msg.addEventListener('input', function (e) {
     // Count the current number of characters
     const length = target.value.length;
 
-    cnt.innerHTML = length +'/'+ maxLen;
+    // cnt.innerHTML = length +'/'+ maxLen;
+    cnt.innerHTML = '$(length)$ / $(maxLen)$';
+    
+
     
 });
 
