@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume_Soji Davis</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forcast_style.css">
+
+    
+
+</head>
+
+<body background="images/HVO.jpg">
+    <!-- <body> -->
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content">
+                    <div class="logo"><a href="about.html"><img src="images/logo.svg"></a></div>
+                    <ul class="links">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="academic.html">Academic</a></li>
+                        <li><a href="professional.html">Professional</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="Skill_pages.html">Skill Pages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    <div class="container">
+        <h2 class="heading_fuel">Fuel Forecaster</h2>
+        <div class="his_opt">
+            <div class="options">
+                <select>
+                    <option>Historical</option>
+                    <option>Forecast</option>
+                </select>
+            </div>
+            <div class="options">
+                <button class="result" type="submit">Result</button>
+            </div>
+        </div>
+        <div class="his_div">
+            <div class="select">
+                <div class="year"><select></select></div>
+            </div>
+            <div class="select">
+                <div class="month"><select></select></div>
+            </div>
+            <div class="select">
+                <button class="go" type="submit" onclick="errorMessage()">Go</button>
+                <span id="error"><br></span>
+            </div>
+
+        </div>
+    </div>
+    <div id="chartDiv"></div>
+<!--====== FOOTER PART START ======-->
+
+<footer id="footer">
+    <div class="footer_class">
+
+        <span class="email">SOJI DAVIS <br></span>
+        <span class="email">sojidavisp@gmail.com <br></span>
+        <span class="email">+44 7768187960</span>
+
+
+    </div> <!-- footer_class -->
+</footer>
+
+
+<!--====== FOOTER PART ENDS ======-->
+
+</body>
+<script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+<script src="js/index.js"></script>
+
+</html>

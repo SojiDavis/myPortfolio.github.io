@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!--material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/curncy_style.css">
+</head>
+
+<body background="images/pic1.jpg">
+<header>
+  <div class="wrapper">
+    <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+            <div class="logo"><a href="about.html"><img src="images/logo.svg"></a></div>
+            <ul class="links">
+              <li><a href="index.html">About</a></li>
+                <li><a href="academic.html">Academic</a></li>
+                <li><a href="professional.html">Professional</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="Skill_pages.html">Skill Pages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+</header>
+
+  <div class="container">
+    <h2 class="heading">Currency Converter</h2>
+    <div class="rate">
+      <div class="err"></div>
+      <div class="catch"></div>
+      <div class="rate1"></div>
+    </div>
+    <div class="main">
+      <div class="initial">
+        <div class="options"><select></select></div>
+        <div class="input"><input type="number" value="1"></div>
+        <span class="limit"> Max limit 9999999999</span>
+        <span id="error"></span>
+      </div>
+      <span class="material-icons swap" style="font-size: 36px;">
+        swap_horiz
+      </span>
+      <div class="target">
+        <div class="options"><select>
+            <option>USD</option>
+          </select></div>
+        <div class="input"><input disabled type="number"></div>
+      </div>
+    </div>
+    <button class="result" type="submit" onclick="errorMessage()">Convert</button>
+  </div>
+  <!--====== FOOTER PART START ======-->
+
+  <footer id="footer">
+    <div class="footer_class">
+      <span class="email">SOJI DAVIS <br></span>
+      <span class="email">sojidavisp@gmail.com<br></span>
+      <span class="email">+44 7768187960</span>
+    </div>
+  </footer>
+
+
+  <!--====== FOOTER PART ENDS ======-->
+
+  <script src="js/sketch.js"></script>
+</body>
+
+</html>

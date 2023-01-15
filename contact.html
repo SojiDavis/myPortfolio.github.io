@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume_Soji Davis</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="about.html"><img src="images/logo.svg"></a></div>
+                <ul class="links">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="academic.html">Academic</a></li>
+                    <li><a href="professional.html">Professional</a></li>
+                    <li><a href="testimonial.html">Testimonial</a></li>
+                    <li><a href="Skill_pages.html">Skill Pages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Contact Form Section Starts Here -->
+    <section class="contact-me">
+
+
+        <div class="contact-col">
+            <div class="dwnld">
+                <h1 id="write_up">If you think I am suitable for your job profile,please send a message.<br> you can find
+                    more about me by downloading below resume</h1>
+                <br><br>
+                <h2 id="cv">Download CV</h2>
+                <a href="files/Resume_Soji Davis.pdf" download>
+                    <img class="ResumeImage" width="150" src="images/Resume_image.PNG" title="Resume_Soji">
+                </a>
+            </div>
+
+            <div class="contact-col" style="margin: 0;">
+                <form id="myForm">
+                    <input type="text" name="name" placeholder="Enter your name*" required>
+                    <input type="email" name="email" placeholder="Enter your email address*" required>
+                    <input type="phone number" name="phone" placeholder="Enter your phone number*" required>
+                    <textarea id="msg" placeholder="Message (not more than 800 characters)*" maxlength="800" rows="10"
+                        column="50" required></textarea>
+                    <div id="cnt"></div>
+                    <button type="submit" class="btn1" id="submit" onclick="myFunction()"> <br> Send Message</button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer">
+        <div class="footer_class">
+            <span class="email">SOJI DAVIS <br></span>
+            <span class="email">sojidavisp@gmail.com<br></span>
+            <span class="email">+44 7768187960</span>
+        </div>
+    </footer>
+
+
+    <!--====== FOOTER PART ENDS ======-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

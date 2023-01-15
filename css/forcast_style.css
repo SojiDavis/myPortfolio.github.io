@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: position x 100px;
+    
+}
+
+
+  .container{
+   padding-block:none;
+   padding-left: 18%;
+
+}
+  
+
+.heading_fuel{
+  text-orientation: upright;
+    text-align:justify;
+    font-size: 1000px;
+    padding-top: 100px; 
+    padding-left: 300px;
+    text-decoration:solid;
+    text-transform: uppercase;
+    font-size: 28px;
+    color:white;
+   
+    /*padding:2.5rem 0  /*to and bottom padding 2.5rem and right and left 0 */
+  }
+
+  .his_opt{
+   
+    display:inline-flex;
+    border: 100px;
+    padding-left:250px;
+    padding-top: 0px;
+    padding-right: 100px;
+    font-size: 16px;
+ }
+
+ .options {
+  flex: 50%;
+  padding: 10px;
+ 
+}
+.options select {
+    appearance:right;   
+    display: block;
+    width:100px;
+    height:40px;
+    padding: 0px 0px;  
+    font-size: 14px;  
+    color: #333;
+    background-color:goldenrod;
+    border: 1px solid #cccccc;
+    word-break: normal; 
+  }
+
+.result {
+    width:100px;
+    height:40px;
+    position: absolute; 
+    /* z-index: 2; */
+    background: goldenrod; 
+    }
+.result:active{
+    background-color: red;    
+     }
+.his_div{
+  display:block;
+  /* border: 100px; */
+  padding-left:300px;
+  /* padding-top: 50px; */
+  /* padding-right: 100px; */
+  font-size: 16px; 
+  width: 575px; 
+}
+.select{
+ flex:0%;
+ 
+}
+
+
+.year select {
+      
+        display: inline-block;
+        width: 30%;
+        max-width: 130px;
+        height: 30px;
+        float:none;
+        
+        line-height: 1.5;
+        color: #333;
+        background-color: goldenrod;
+        background-image: none;
+        border: 1px solid #cccccc;
+    
+      }
+
+.month select {
+
+
+        display: inline-block;
+        width: 30%;
+        max-width: 130px;
+        height: 30px;
+        float:none;
+        line-height: 1.5;
+        color: #333;
+        background-color: goldenrod;
+        background-image: none;
+        border: 1px solid #cccccc;
+      }
+
+.go {
+
+        display: inline-block;
+        width: 30%;
+        max-width: 130px;
+        height: 30px;
+        float:none;
+        line-height: 1.5;
+        color: #333;
+        background-color: goldenrod;
+        background-image: none;
+        border: 1px solid #cccccc;
+        }
+#error{
+  background-color:white;
+  color: red;
+}
+#chartDiv{
+    width:100%; 
+    height:450px; 
+    padding-bottom: 50px;  
+    position: relative;
+      
+} 
+@media (max-width: 861px) {
+  .container{
+    padding-left: 0%;
+  }
+  .his_opt{
+    padding-left: 80px;
+  }
+  .heading_fuel{
+    padding-left: 90px;
+  }
+  .his_div{
+    padding-left: 140px;
+  }
+  }
+@media (max-width: 280px) {
+  #chartDiv{
+    width: 200%;
+  }
+  }
+ 

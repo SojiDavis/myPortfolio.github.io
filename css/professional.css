@@ -1,0 +1,18 @@
+.skills{
+   padding-top: 200px;
+   width: 250px;
+   height: 250px;
+}
+
+.pull-right{
+    float:right;
+}
+.w3-border {
+    border: 1px solid #e71ebf!important;
+    background-color: #eab3e3!important;
+  
+}
+.w3-colored {
+    color: #000!important;
+    background-color:#e71ebf!important;
+}
