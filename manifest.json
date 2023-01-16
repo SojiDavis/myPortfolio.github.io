@@ -2,19 +2,21 @@
   
     "name": "Resume_Soji Davis",
     "short_name": "Resume",
-    "start_url": "https://sojidavis.github.io/myPortfolio.github.io/",
+    "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "#fff",
+    "background_color": "gray",
     "theme_color" :"gray",
     "description": "a complete portfolio of Soji Davis",
+
     "icons": [{
       "src": "images/logo.svg",
-      "sizes": "41x32",
+      "sizes": "55x43",
       "type": "image/svg"
     }, {
       "src": "images/academic.png",
       "sizes": "2880x2880",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose":"any maskable"
     }, {
       "src": "images/soji.jpg",
       "sizes": "636x550",
@@ -28,14 +30,14 @@
       "sizes": "1920x1536",
       "type": "image/jpg"
     }, {
+      "src": "images/Fuel_forecaster.png",
+      "sizes": "1892x673",
+      "type": "image/png"
+    }, {
       "src": "images/Fuel_forcaster1.jpg",
       "sizes": "1152x364",
       "type": "image/jpg"
-    }, {
-        "src": "images/Fuel_forcaster.png",
-        "sizes": "1892x673",
-        "type": "image/png"
-    }, {
+    },  {
         "src": "images/Resume_image.png",
         "sizes": "776x901",
         "type": "image/png"
