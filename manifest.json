@@ -10,36 +10,36 @@
     "description": "a complete portfolio of Soji Davis",
 
     "icons": [{
-      "src": "images/logo.svg",
+      "src": "/myPortfolio.github.io/images/logo.svg",
       "sizes": "55x43",
       "type": "image/svg"
     }, {
-      "src": "images/academic.png",
+      "src": "/myPortfolio.github.io/images/academic.png",
       "sizes": "2880x2880",
       "type": "image/png",
       "purpose":"any maskable"
     }, {
-      "src": "images/soji.jpg",
+      "src": "/myPortfolio.github.io/images/soji.jpg",
       "sizes": "636x550",
       "type": "image/png"
     }, {
-      "src": "images/Currency_converter.png",
+      "src": "/myPortfolio.github.io/images/Currency_converter.png",
       "sizes": "1671x814",
       "type": "image/png"
     }, {
-      "src": "images/Currency_converter1.jpg",
+      "src": "/myPortfolio.github.io/images/Currency_converter1.jpg",
       "sizes": "1920x1536",
       "type": "image/jpg"
     }, {
-      "src": "images/Fuel_forecaster.png",
+      "src": "/myPortfolio.github.io/images/Fuel_forecaster.png",
       "sizes": "1892x673",
       "type": "image/png"
     }, {
-      "src": "images/Fuel_forcaster1.jpg",
+      "src": "/myPortfolio.github.io/images/Fuel_forcaster1.jpg",
       "sizes": "1152x364",
       "type": "image/jpg"
     },  {
-        "src": "images/Resume_image.png",
+        "src": "/myPortfolio.github.io/images/Resume_image.png",
         "sizes": "776x901",
         "type": "image/png"
     }],
