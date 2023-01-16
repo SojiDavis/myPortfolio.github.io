@@ -2,7 +2,7 @@
   
     "name": "Resume_Soji Davis",
     "short_name": "Resume",
-    "start_url": "/about.html",
+    "start_url": "https://sojidavis.github.io/myPortfolio.github.io/",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color" :"gray",
