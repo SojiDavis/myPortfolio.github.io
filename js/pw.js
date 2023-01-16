@@ -1,7 +1,7 @@
 
 if ("serviceWorker" in navigator) {
     
-    navigator.serviceWorker.register('/myPortfolio.github.io/sw.js',{scope:'/'})
+    navigator.serviceWorker.register('https://github.com/SojiDavis/myPortfolio.github.io/sw.js',{scope:'/'})
     .then((reg) => {
             console.log("service worker is registered", reg);
         }).catch((err) => {
