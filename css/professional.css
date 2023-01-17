@@ -126,6 +126,12 @@
 
 }
 
+@media screen and (max-width: 415px) {
+  .prof {
+    padding-top: 20px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .prof {
     padding-top: 100px;
@@ -138,7 +144,7 @@
   }
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 280px) {
   .prof {
     padding-top: 300px;
 
