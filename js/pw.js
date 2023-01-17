@@ -1,6 +1,6 @@
 
 if ("serviceWorker" in navigator) {
-    console.log("inside register");
+    // console.log("inside register");
     navigator.serviceWorker.register("/sw.js")
     .then((reg) => {
             console.log("service worker is registered", reg);
