@@ -11,7 +11,7 @@ self.addEventListener('install', e =>{
                 "https://sojidavis.github.io/myPortfolio.github.io/css/forcast_style.css",
                 "https://sojidavis.github.io/myPortfolio.github.io/css/testimonial.css",
                 "https://sojidavis.github.io/myPortfolio.github.io/files/forcasting_value_table.csv",
-                "https://sojidavis.github.io/myPortfolio.github.io/files/Resume_Soji Davis.pdf",
+                "https://sojidavis.github.io/myPortfolio.github.io/files/Resume_Soji_Davis.pdf",
                 "https://sojidavis.github.io/myPortfolio.github.io/images/academic.png",
                 "https://sojidavis.github.io/myPortfolio.github.io/images/Currency_converter.png",
                 "https://sojidavis.github.io/myPortfolio.github.io/images/Fuel_forecaster.png",
