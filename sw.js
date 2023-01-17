@@ -2,6 +2,7 @@
 self.addEventListener('install', e =>{
        e.waitUntil(
             cashes.open("static").then (cache=>{
+                console.log("inside cache");
                 return cache.addAll(["./",
                 "./css/style.css",
                 "./css/academic.css",
