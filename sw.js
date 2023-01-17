@@ -1,8 +1,8 @@
 //install service worker
 self.addEventListener('install', e =>{
        e.waitUntil(
-            cashes.open("static").then (cache=>{
-                console.log("inside cache");
+            caches.open("static").then (cache=>{
+                console.log("inside cache x");
                 return cache.addAll(["./",
                 "./css/style.css",
                 "./css/academic.css",
